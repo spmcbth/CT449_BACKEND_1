@@ -4,7 +4,7 @@
   "description": "backend1",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Mach Gia Han - B2207519",
   "license": "ISC",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "eslint": "^9.30.0",
     "eslint-config-prettier": "^10.1.5",
+    "nodemon": "^3.1.10",
     "prettier": "^3.6.2"
   }
 }
